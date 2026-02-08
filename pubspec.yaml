@@ -1,0 +1,37 @@
+name: lectures_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-334.4.beta
+
+dependencies:
+  bloc: ^8.1.4
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.8
+  device_preview: ^1.2.0
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_launcher_icons: "^0.14.2"
+  http: ^1.2.2
+  lottie: 3.2.0
+  youtube_player_flutter: ^9.1.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/core/assets/app_icon/watch.png"
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/core/assets/carousel_slider/
