@@ -115,7 +115,7 @@ lib/
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/mahmoudjawad-2025/1--Flutter--Watch_App.git
+    git clone <repo-url>
     cd 1--Flutter--Watch_App
     ```
 
